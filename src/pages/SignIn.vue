@@ -7,7 +7,7 @@
         <el-input v-model="loginForm.username" placeholder="请输入用户名"></el-input>
       </el-form-item>
       <el-form-item >
-        <el-input v-model="loginForm.password" place></el-input>
+        <el-input v-model="loginForm.password" placeholder="请输入密码" type="password"></el-input>
       </el-form-item>
       <el-form-item style="text-align: left">
         <el-checkbox v-model="checked" checked class="remember">记住密码</el-checkbox>
