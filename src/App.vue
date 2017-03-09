@@ -1,13 +1,18 @@
 <template>
   <div id="app">
+    <nprogress-container></nprogress-container>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  import NprogressContainer from 'vue-nprogress/src/NprogressContainer'
+  export default {
+    name: 'app',
+    components: {
+      NprogressContainer
+    }
+  }
 </script>
 
 <style lang="scss" rel="stylesheet/scss">

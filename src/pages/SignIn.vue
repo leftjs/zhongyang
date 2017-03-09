@@ -26,7 +26,8 @@
         loginForm: {
           username: 'admin',
           password: 'admin'
-        }
+        },
+        checked: true
       }
     },
     methods: {
@@ -51,7 +52,7 @@
     background: $side_bar_color;
   }
   .form {
-    margin: 180px auto;
+    margin: 180px auto 0;
     background: $nav_back_color;
     width: 350px;
     padding: 35px;
